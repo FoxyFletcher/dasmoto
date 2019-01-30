@@ -1,0 +1,63 @@
+body {
+  font-family: Helvetica, sans-serif;
+  display:block:
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: .5px;
+  color:white;
+  font-weight:bold;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: .5px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+h1 {
+  background-image: url(/Users/kellyfletcher1/Documents/*PERSONAL/Codecademy/Projects/Dasmoto/resources/images/pattern.jpeg);
+  text-align:center;
+  font-size:100px;
+  color:khaki;
+  padding:30px 0px 30px 0px;
+  }
+
+#brushes {
+  background-color: mediumspringgreen;
+  padding: 8px 10px 8px 10px;
+}
+
+#frames {
+  background-color: lightcoral;
+  padding: 8px 10px 8px 10px;
+}
+
+#paint {
+  background-color: skyblue;
+  padding: 8px 10px 8px 10px;
+}
+
+.price {
+  color:blue;
+  font-weight: bold;
+}
+.article img{
+  float: left;
+  padding: 0 20px 0 0;
+  display:inline-flex;
+  align:left;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+  font-size: 50px !important;
+  }
+  img {
+    width:100% !important;
+    }
+}
